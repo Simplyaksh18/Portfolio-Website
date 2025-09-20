@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Akshieta Aravind - Full Stack Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Multi-Layer Dynamic Background -->
+    <div id="dynamicBackground" class="dynamic-bg-container">
+      <!-- Base Animated Layers -->
+      <div class="bg-layer layer-base"></div>
+      <div class="bg-layer layer-1"></div>
+      <div class="bg-layer layer-2"></div>
+      <div class="bg-layer layer-3"></div>
+      <div class="bg-layer layer-4"></div>
+
+      <!-- Floating Gradient Orbs -->
+      <div class="gradient-orb orb-1"></div>
+      <div class="gradient-orb orb-2"></div>
+      <div class="gradient-orb orb-3"></div>
+      <div class="gradient-orb orb-4"></div>
+      <div class="gradient-orb orb-5"></div>
+
+      <!-- Dynamic Shapes -->
+      <div class="floating-shape shape-1"></div>
+      <div class="floating-shape shape-2"></div>
+      <div class="floating-shape shape-3"></div>
+      <div class="floating-shape shape-4"></div>
+      <div class="floating-shape shape-5"></div>
+
+      <!-- Particle System -->
+      <div class="particle-system">
+        <div class="particle particle-1"></div>
+        <div class="particle particle-2"></div>
+        <div class="particle particle-3"></div>
+        <div class="particle particle-4"></div>
+        <div class="particle particle-5"></div>
+        <div class="particle particle-6"></div>
+      </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="nav-logo">
+          <div class="logo-placeholder">
+            <i class="fas fa-code"></i>
+          </div>
+          <span class="logo-text">AA</span>
+        </div>
+
+        <ul class="nav-menu" id="navMenu">
+          <li class="nav-item">
+            <a href="#about" class="nav-link" data-section="about">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#projects" class="nav-link" data-section="projects"
+              >Projects</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link" data-section="contact"
+              >Reach Out</a
+            >
+          </li>
+        </ul>
+
+        <div class="hamburger" id="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1 class="hero-name scroll-animate" data-animation="fade-up">
+            Akshieta Aravind
+          </h1>
+          <div
+            class="hero-title scroll-animate"
+            data-animation="fade-up"
+            data-delay="200"
+          >
+            <span class="typing-text" id="typingText"></span>
+            <span class="cursor">|</span>
+          </div>
+          <p
+            class="hero-tagline scroll-animate"
+            data-animation="fade-up"
+            data-delay="400"
+          >
+            Crafting innovative digital solutions that bridge technology and
+            user experience
+          </p>
+          <div
+            class="hero-buttons scroll-animate"
+            data-animation="fade-up"
+            data-delay="600"
+          >
+            <a href="#projects" class="btn btn--primary">View My Work</a>
+            <a href="#contact" class="btn btn--outline">Get In Touch</a>
+          </div>
+        </div>
+        <div
+          class="hero-social scroll-animate"
+          data-animation="fade-right"
+          data-delay="800"
+        >
+          <a
+            href="https://github.com/Simplyaksh18"
+            class="social-link"
+            target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/akshieta-aravind18"
+            class="social-link"
+            target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a href="mailto:akshieta@gmail.com" class="social-link"
+            ><i class="fas fa-envelope"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+      <div class="container">
+        <h2 class="section-title scroll-animate" data-animation="fade-up">
+          About Me
+        </h2>
+        <div class="about-content">
+          <div class="about-image scroll-animate" data-animation="fade-right">
+            <div class="profile-placeholder">
+              <i class="fas fa-user"></i>
+            </div>
+          </div>
+          <div
+            class="about-text scroll-animate"
+            data-animation="fade-left"
+            data-delay="200"
+          >
+            <p>
+              I'm a passionate Full Stack Developer with expertise in modern web
+              technologies and a keen eye for creating exceptional digital
+              experiences. I specialize in building scalable, user-centric
+              applications that solve real-world problems while maintaining
+              clean, efficient code architecture.
+            </p>
+            <p>
+              My technical toolkit spans HTML, CSS, JavaScript, React,
+              PostgreSQL, and MySQL, allowing me to craft end-to-end solutions
+              that seamlessly blend frontend aesthetics with robust backend
+              functionality. I thrive on turning complex challenges into
+              elegant, intuitive applications that not only meet business
+              objectives but also delight users.
+            </p>
+
+            <div class="skills-grid">
+              <div
+                class="skill-card scroll-animate"
+                data-animation="fade-up"
+                data-delay="0"
+              >
+                <div class="skill-icon"><i class="fab fa-html5"></i></div>
+                <span class="skill-name">HTML</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-skill="90"></div>
+                </div>
+              </div>
+              <div
+                class="skill-card scroll-animate"
+                data-animation="fade-up"
+                data-delay="100"
+              >
+                <div class="skill-icon"><i class="fab fa-css3-alt"></i></div>
+                <span class="skill-name">CSS</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-skill="85"></div>
+                </div>
+              </div>
+              <div
+                class="skill-card scroll-animate"
+                data-animation="fade-up"
+                data-delay="200"
+              >
+                <div class="skill-icon"><i class="fab fa-js-square"></i></div>
+                <span class="skill-name">JavaScript</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-skill="88"></div>
+                </div>
+              </div>
+              <div
+                class="skill-card scroll-animate"
+                data-animation="fade-up"
+                data-delay="300"
+              >
+                <div class="skill-icon"><i class="fab fa-react"></i></div>
+                <span class="skill-name">React</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-skill="82"></div>
+                </div>
+              </div>
+              <div
+                class="skill-card scroll-animate"
+                data-animation="fade-up"
+                data-delay="400"
+              >
+                <div class="skill-icon"><i class="fas fa-database"></i></div>
+                <span class="skill-name">PostgreSQL</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-skill="80"></div>
+                </div>
+              </div>
+              <div
+                class="skill-card scroll-animate"
+                data-animation="fade-up"
+                data-delay="500"
+              >
+                <div class="skill-icon"><i class="fas fa-database"></i></div>
+                <span class="skill-name">MySQL</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-skill="78"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section">
+      <div class="container">
+        <h2 class="section-title scroll-animate" data-animation="fade-up">
+          Projects Made
+        </h2>
+        <div class="projects-grid">
+          <div
+            class="project-card scroll-animate"
+            data-animation="fade-up"
+            data-delay="0"
+          >
+            <div class="project-image">
+              <div class="project-placeholder">
+                <i class="fas fa-leaf"></i>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">EcoTracker Pro</h3>
+              <p class="project-description">
+                A comprehensive environmental tracking application that helps
+                users monitor their carbon footprint and adopt sustainable
+                practices through gamification and real-time analytics.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">MySQL</span>
+                <span class="tech-tag">CSS</span>
+              </div>
+              <button class="project-btn">Explore Demo</button>
+            </div>
+          </div>
+
+          <div
+            class="project-card scroll-animate"
+            data-animation="fade-up"
+            data-delay="200"
+          >
+            <div class="project-image">
+              <div class="project-placeholder">
+                <i class="fas fa-chart-line"></i>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">DataViz Dashboard</h3>
+              <p class="project-description">
+                Interactive data visualization platform that transforms complex
+                datasets into intuitive, real-time charts and analytics for
+                business intelligence and decision making.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">HTML</span>
+                <span class="tech-tag">PostgreSQL</span>
+                <span class="tech-tag">CSS</span>
+              </div>
+              <button class="project-btn">View Experience</button>
+            </div>
+          </div>
+
+          <div
+            class="project-card scroll-animate"
+            data-animation="fade-up"
+            data-delay="400"
+          >
+            <div class="project-image">
+              <div class="project-placeholder">
+                <i class="fas fa-users"></i>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">SmartConnect App</h3>
+              <p class="project-description">
+                A responsive web application that connects professionals through
+                intelligent matching algorithms and real-time collaboration
+                tools with advanced networking features.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">PostgreSQL</span>
+                <span class="tech-tag">JavaScript</span>
+              </div>
+              <button class="project-btn">Launch Project</button>
+            </div>
+          </div>
+
+          <div
+            class="project-card scroll-animate"
+            data-animation="fade-up"
+            data-delay="600"
+          >
+            <div class="project-image">
+              <div class="project-placeholder">
+                <i class="fas fa-cloud"></i>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">CloudSync Platform</h3>
+              <p class="project-description">
+                Cloud-based synchronization platform enabling seamless file
+                sharing and collaboration across multiple devices with
+                enterprise-grade security and real-time updates.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">HTML</span>
+                <span class="tech-tag">CSS</span>
+                <span class="tech-tag">MySQL</span>
+                <span class="tech-tag">JavaScript</span>
+              </div>
+              <button class="project-btn">Discover More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+      <div class="container">
+        <h2 class="section-title scroll-animate" data-animation="fade-up">
+          Reach Out
+        </h2>
+        <div class="contact-content">
+          <div class="contact-info scroll-animate" data-animation="fade-right">
+            <h3>Let's Connect</h3>
+            <p>
+              Ready to bring your ideas to life? Let's discuss how we can work
+              together to create something amazing.
+            </p>
+
+            <div
+              class="contact-item scroll-animate"
+              data-animation="fade-up"
+              data-delay="200"
+            >
+              <i class="fas fa-envelope"></i>
+              <div>
+                <span class="contact-label">Email</span>
+                <a href="mailto:akshieta@gmail.com">akshieta@gmail.com</a>
+              </div>
+            </div>
+
+            <div
+              class="contact-item scroll-animate"
+              data-animation="fade-up"
+              data-delay="300"
+            >
+              <i class="fas fa-phone"></i>
+              <div>
+                <span class="contact-label">Phone</span>
+                <a href="tel:6383386748">6383386748</a>
+              </div>
+            </div>
+
+            <div
+              class="contact-social scroll-animate"
+              data-animation="fade-up"
+              data-delay="400"
+            >
+              <a
+                href="https://github.com/Simplyaksh18"
+                class="social-link"
+                target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/akshieta-aravind18"
+                class="social-link"
+                target="_blank"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+              <a href="mailto:akshieta@gmail.com" class="social-link"
+                ><i class="fas fa-envelope"></i
+              ></a>
+            </div>
+          </div>
+
+          <form
+            class="contact-form scroll-animate"
+            data-animation="fade-left"
+            data-delay="200"
+          >
+            <div class="form-group">
+              <label for="name" class="form-label">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                class="form-control"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="email" class="form-label">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                class="form-control"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="message" class="form-label">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                class="form-control"
+                rows="5"
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn btn--primary btn--full-width">
+              Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer scroll-animate" data-animation="fade-up">
+      <div class="container">
+        <div class="footer-content">
+          <p>&copy; 2025 Akshieta Aravind. Built with passion and precision.</p>
+          <div class="footer-social">
+            <a
+              href="https://github.com/Simplyaksh18"
+              class="social-link"
+              target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/akshieta-aravind18"
+              class="social-link"
+              target="_blank"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a href="mailto:akshieta@gmail.com" class="social-link"
+              ><i class="fas fa-envelope"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
